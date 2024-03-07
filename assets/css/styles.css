@@ -1,0 +1,110 @@
+:root {
+    --color-primary: hsl(0, 0%, 8%);
+    --color-secondary: hsl(0, 0%, 12%);
+    --color-terciary: hsl(0, 0%, 20%);
+    --color-text-principal: hsl(0, 0%, 100%);
+    --color-text-secondary: hsl(75, 94%, 57%);
+}
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Inter";
+    font-size:  62.5%; /* 10px */
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-text-principal);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Tarjeta */
+.layout {
+    min-height: 95vh;
+    width: 39rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;     
+}
+
+.card {
+    background-color: var(--color-secondary);
+    border-radius: 2rem;
+    padding: 4rem;  
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin-bottom: 2.5rem;
+}
+
+.header__img-container {
+    width: 9rem;
+    height: 8.5rem;
+    overflow: hidden;
+    border-radius: 50%;    
+    margin-bottom: 3rem;
+}
+
+.header__img {
+    width: 100%;
+}
+
+.header__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.header__subtitle {
+    color: var(--color-text-secondary);
+    margin-bottom: 3rem;    
+    font-size: 1.4rem;
+}
+
+.header__description {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+/* Redes Sociales */
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.social__link {
+    background-color: var(--color-terciary);
+    color: var(--color-text-principal);
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    transition: all 300ms ease;
+}
+
+.social__link:hover {
+    background-color: var(--color-text-secondary);
+    color: var(--color-secondary);
+}
+
+/* Footer */
+.attribution { font-size: 1.1rem; text-align: center; }
+.attribution a { color: var(--color-text-secondary); }
