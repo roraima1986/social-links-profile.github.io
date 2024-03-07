@@ -24,6 +24,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Social Links Profile](https://roraima1986.github.io/social-links-profile.github.io/)
 - Frontend Mentor - [@roraima1986](https://www.frontendmentor.io/profile/roraima1986)
 
